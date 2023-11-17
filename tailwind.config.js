@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "techit-gray": { 300: "#222222" },
+        "techit-gray": { 200: "#737373", 300: "#222222" },
       },
     },
   },

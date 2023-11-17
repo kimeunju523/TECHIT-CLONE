@@ -17,7 +17,7 @@ const TopBanner = () => {
 
   return (
     <div className={`h-[42px] bg-purple-100 ${isClose && "hidden"}`}>
-      <div className="max-w-screen-xl mx-auto px-6 flex justify-between">
+      <div className="container  flex justify-between">
         <div className="flex items-center">
           <span className="font-semibold">
             앱 스쿨 사전설명회로 궁금증 해결하기

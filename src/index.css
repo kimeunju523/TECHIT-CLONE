@@ -79,6 +79,9 @@
 }
 
 @layer component {
+  .container {
+    @apply max-w-screen-xl mx-auto px-6;
+  }
   .header-menu {
     @apply px-6 font-semibold;
   }
